@@ -1,55 +1,19 @@
 # Git
 
-Git is a version control system. Basically - keep track of versions of files (like backups, but git is more efficient).
+Git is a version control system. Basically, it keeps track of changes in code, and thus can be used to:
 
-This is especially useful when developing software collaboratively (esp. asynchronously, non-linearly, etc.)
+- keep a history of code changes
+- revert mistakes in code
+- collaborate with other developers
+- make backups of code
+- and much more
 
-## Setup
+While Git can be used for all files, and not just code, it is built mainly with code and developers in mind.
 
-Check if git is installed; prompt to install if it isn't: git --version
+*Note.* The Git system/software is separate from GitHub, GitLab, and BitBucket, all of which are commercial products that use Git.
 
-Install git on:
-- Windows (WSL) / Linux (Ubuntu): 'sudo apt install git-all'
-- macOS: 'brew install git'; or alternatively, install Xcode and its "Command Line Tools" package, which includes Git.
+## Manual and Documentation
 
-## Usage
+To read the manual: type 'man git' in the command-line.
 
-### Manual
-
-To read the manual: 'man git'
-
-Manual shortcuts:
-
-- 'q': quit
-- 'j', 'k': one line down/up
-- 'd', 'u': half-page down/up
-
-- '/term': search for 'term'
-- 'n', 'N': next/previous search term
-
-### Commands
-
-In Git, commands are divided into high-level ("porcelain") and low-level ("plumbing") commands.
-
-99% of the time, you'll be using porcelain/high-level commands. 
-
-#### Porcelain Commands:
-
-(Assuming a 'git' before the command)
-
-- status
-- add
-- commit
-- push
-- pull
-- log
-
-
-#### Plumbing Commands:
-
-(Assuming the same as above)
-
-- apply
-- commit-tree
-- hash-object
-
+Documentation is available at: https://git-scm.com/docs
