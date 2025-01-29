@@ -2,6 +2,6 @@
 
 Topics in Notes:
 
-- [] shells and terminals
-- [] git
-- [] python
+- shells and terminals
+- git
+- python
